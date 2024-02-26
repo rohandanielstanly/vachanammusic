@@ -1,0 +1,64 @@
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<com.google.android.material.circularreveal.CircularRevealLinearLayout
+		android:id="@+id/bg"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:padding="8dp"
+		android:background="#00FFFFFF"
+		android:orientation="vertical">
+
+		<com.google.android.material.circularreveal.CircularRevealLinearLayout
+			android:id="@+id/copyLyricsLayout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:background="#00FFFFFF"
+			android:gravity="right"
+			>
+
+			<com.google.android.material.textview.MaterialTextView
+				android:id="@+id/copyLyricsTxt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:fontFamily="@font/light"
+				android:gravity="center"
+				android:text="@string/copy_lyrics"
+				android:textColor="#ffffff"
+				android:textSize="12sp"
+				android:textStyle="normal" />
+
+			<com.google.android.material.imageview.ShapeableImageView
+				android:id="@+id/i1"
+				android:layout_width="50dp"
+				android:layout_height="20dp"
+				android:layout_gravity="center"
+				app:srcCompat="@drawable/copy" />
+		</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+		<androidx.core.widget.NestedScrollView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp">
+
+			<com.google.android.material.textview.MaterialTextView
+				android:id="@+id/text"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="#ffffff"
+				android:gravity="center"
+				android:layout_marginTop="25dp"
+				android:layout_marginBottom="25dp"
+				android:textSize="18sp"
+				android:textStyle="bold" />
+		</androidx.core.widget.NestedScrollView>
+
+
+	</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>

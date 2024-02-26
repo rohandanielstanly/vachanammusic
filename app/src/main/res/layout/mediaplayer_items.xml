@@ -1,0 +1,376 @@
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageview1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/default_image"
+            android:scaleType="fitXY"
+            app:shapeAppearanceOverlay="@style/roundedCornerStyle" />
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="6dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textview1"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textview"
+                android:textSize="16sp"
+                android:fontFamily="@font/spotify"
+                android:textColor="#000000"
+                android:singleLine="true" />
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textview2"
+                    android:focusable="false"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview"
+                    android:fontFamily="@font/spotify"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:singleLine="true"
+                    android:layout_weight="1" />
+
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+        <View
+            android:id="@+id/line"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height=".2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#000000" />
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/playlistsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/i1"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/addplaylist_pink" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/playlistsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/add_to_playlist"
+            android:fontFamily="@font/spotify"
+            android:textColor="#37474f"
+            android:textSize="14sp"
+            />
+
+
+
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+        <View
+            android:id="@+id/favoritesNarrowLine"
+            android:layout_width="wrap_content"
+            android:layout_height=".2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_gravity="center"
+            android:background="#f50057" />
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:id="@+id/favoritesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/i2"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/favorites_pink_outline" />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/favoritesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:fontFamily="@font/spotify"
+                android:text="@string/add_to_favorites"
+                android:textSize="14sp"
+                android:textColor="#37474f" />
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+        <View
+            android:id="@+id/equalizerNarrowLine"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height=".2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="#f50057" />
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/equalizerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/i3"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/equalizer_pink" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/equalizerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/equalizer"
+            android:fontFamily="@font/spotify"
+            android:textSize="14sp"
+            android:textColor="#37474f" />
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+        <View
+            android:id="@+id/linkShareNarrowLine"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height=".2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="#f50057" />
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/linkShareContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/i4"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/share_pink" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/linkShareTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/share_song"
+            android:fontFamily="@font/spotify"
+            android:textSize="14sp"
+            android:textColor="#37474f" />
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+        <View
+            android:id="@+id/lyricsLine"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height=".2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="#f50057" />
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/lyricsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/i5"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/lyrics_pink" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lyricsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/song_lyrics"
+            android:fontFamily="@font/spotify"
+            android:textSize="14sp"
+            android:textColor="#37474f" />
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+        <View
+            android:id="@+id/songVideoLine"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height=".2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="#f50057" />
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/songVideoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/i6"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/video_pink" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/songVideoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/song_video"
+            android:fontFamily="@font/spotify"
+            android:textSize="14sp"
+            android:textColor="#37474f" />
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+        <View
+            android:id="@+id/songDetailsLine"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height=".2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="#f50057" />
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/songDetailsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:layout_marginBottom="16dp"
+
+            android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/i7"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/info_pink" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/songDetailsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/song_details"
+            android:fontFamily="@font/spotify"
+
+            android:textSize="14sp"
+            android:textColor="#37474f" />
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+
+
+
+
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/linear7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/close"
+            android:focusable="false"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/close_white"
+            android:scaleType="fitXY"
+            android:layout_gravity="right" />
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+

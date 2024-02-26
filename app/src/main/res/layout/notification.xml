@@ -1,0 +1,63 @@
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	<com.google.android.material.circularreveal.CircularRevealFrameLayout
+		android:id="@+id/main"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/main_bg"
+		android:orientation="vertical">
+		<com.google.android.material.circularreveal.CircularRevealLinearLayout
+			android:id="@+id/linear13"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_marginTop="35dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<com.google.android.material.imageview.ShapeableImageView
+				android:id="@+id/imageview11"
+				android:layout_width="25dp"
+				android:layout_height="25dp"
+				android:layout_marginStart="5dp"
+				android:src="@drawable/back"
+				android:scaleType="fitXY" />
+			<com.google.android.material.circularreveal.CircularRevealLinearLayout
+				android:id="@+id/linear14"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<com.google.android.material.textview.MaterialTextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/my_feed"
+					android:textSize="18sp"
+					android:textColor="#FFFFFF" />
+				<com.google.android.material.imageview.ShapeableImageView
+					android:id="@+id/imageview10"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:src="@drawable/notificationq"
+					android:scaleType="fitCenter" />
+			</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+		</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+		<com.google.android.material.circularreveal.CircularRevealLinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:orientation="horizontal">
+			<ListView
+				android:id="@+id/listview1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="85dp"
+				android:padding="8dp"
+				android:choiceMode="none" />
+		</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+	</com.google.android.material.circularreveal.CircularRevealFrameLayout>
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>

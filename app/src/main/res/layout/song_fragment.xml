@@ -1,0 +1,206 @@
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	<androidx.core.widget.NestedScrollView
+		android:id="@+id/vscroll6"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<com.google.android.material.circularreveal.CircularRevealLinearLayout
+			android:id="@+id/linear194"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<com.google.android.material.circularreveal.CircularRevealLinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<com.google.android.material.circularreveal.CircularRevealLinearLayout
+					android:id="@+id/linear198"
+					android:layout_width="match_parent"
+					android:layout_height="180dp"
+					android:orientation="horizontal">
+					<com.google.android.material.imageview.ShapeableImageView
+						android:id="@+id/artistCover"
+						android:layout_width="match_parent"
+						android:layout_height="180dp"
+						android:src="@drawable/mainsignin_background"
+						android:scaleType="centerCrop" />
+				</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+				<com.google.android.material.circularreveal.CircularRevealLinearLayout
+					android:id="@+id/linear205"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:orientation="horizontal"
+					android:layout_gravity="center_horizontal|center_vertical">
+					<com.google.android.material.textview.MaterialTextView
+						android:id="@+id/artistName"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="1dp"
+						android:fontFamily="@font/spotify"
+						android:text="@string/favorite"
+						android:textSize="20sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:translationX="12.0dp" />
+				</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+			</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+			<com.google.android.material.circularreveal.CircularRevealLinearLayout
+				android:id="@+id/linear7"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+
+				<de.hdodenhof.circleimageview.CircleImageView
+					android:id="@+id/artistImg"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:src="@drawable/favorites_red"
+					android:translationX="15.0dp" />
+
+				<com.google.android.material.textview.MaterialTextView
+					android:id="@+id/artistDes"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:fontFamily="@font/spotify"
+					android:padding="8dp"
+					android:text="@string/my_songs"
+					android:textColor="#FFFFFF"
+					android:textSize="14sp"
+					android:textStyle="normal"
+					android:translationX="15.0dp" />
+			</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+			<com.google.android.material.circularreveal.CircularRevealLinearLayout
+				android:id="@+id/linear8"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="1dp"
+				android:gravity="left|center_vertical"
+				android:orientation="horizontal">
+
+				<com.google.android.material.circularreveal.CircularRevealLinearLayout
+					android:id="@+id/linear204"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right|center_vertical"
+					android:orientation="horizontal"
+					android:layout_gravity="right|center_vertical" />
+			</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+			<com.google.android.material.circularreveal.CircularRevealLinearLayout
+				android:id="@+id/linear9"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginStart="5dp"
+				android:gravity="center"
+				android:orientation="horizontal"
+
+				android:paddingTop="4dp"
+				android:paddingRight="8dp"
+				android:paddingBottom="4dp">
+
+				<com.google.android.material.textview.MaterialTextView
+					android:id="@+id/totalViews"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="16dp"
+					android:layout_marginRight="16dp"
+					android:fontFamily="@font/light"
+					android:text="@string/follow"
+					android:textColor="#ffffff"
+					android:textSize="12sp"
+					android:textStyle="normal"
+					android:visibility="gone" />
+				<com.google.android.material.circularreveal.CircularRevealLinearLayout
+					android:id="@+id/linearFollow"
+					android:layout_width="wrap_content"
+					android:layout_height="30dp"
+					android:layout_gravity="center_horizontal|center_vertical"
+					android:layout_marginStart="8dp"
+					android:layout_marginEnd="10dp"
+					android:background="#ffffff"
+					android:visibility="gone"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+
+					<com.google.android.material.textview.MaterialTextView
+						android:id="@+id/followTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="16dp"
+						android:layout_marginRight="16dp"
+						android:fontFamily="@font/light"
+						android:text="@string/follow"
+						android:textSize="12sp"
+						android:textColor="#ffffff"
+						android:textStyle="normal" />
+				</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+				<com.google.android.material.circularreveal.CircularRevealLinearLayout
+					android:id="@+id/linear199"
+					android:layout_width="match_parent"
+					android:layout_height="29dp"
+					android:layout_gravity="center_horizontal|center_vertical"
+					android:gravity="right|center_vertical"
+					android:orientation="horizontal">
+					<com.google.android.material.imageview.ShapeableImageView
+						android:id="@+id/shuffle"
+						android:layout_width="30dp"
+						android:layout_height="30dp"
+						android:layout_marginEnd="8dp"
+						android:scaleType="fitXY"
+						android:src="@drawable/shuffle_song" />
+
+					<com.google.android.material.imageview.ShapeableImageView
+						android:id="@+id/linkShare"
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:layout_marginEnd="8dp"
+						android:scaleType="fitXY"
+						android:src="@drawable/share_link" />
+
+
+				</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+			</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+			<com.google.android.material.circularreveal.CircularRevealLinearLayout
+				android:id="@+id/linear200"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="8dp"
+				android:layout_marginTop="8dp"
+				android:layout_marginEnd="8dp"
+				android:layout_gravity="center_horizontal|center_vertical"
+				android:gravity="right|center_vertical"
+				android:orientation="horizontal"/>
+			<com.google.android.material.circularreveal.CircularRevealLinearLayout
+				android:id="@+id/narrowline"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="10dp"
+				android:background="#424242"
+				android:orientation="horizontal" />
+		</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+	</androidx.core.widget.NestedScrollView>
+	<androidx.core.widget.NestedScrollView
+		android:id="@+id/vscroll8"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<androidx.recyclerview.widget.RecyclerView
+			android:id="@+id/recyclerview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp" />
+	</androidx.core.widget.NestedScrollView>
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>

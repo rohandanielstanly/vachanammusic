@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="playBackChannel">UMusicPlayBack</string>
+    <string name="downloadChannel">UMusicDownload</string>
+
+    <string name="google_client_id">511119081111-7c66obhptkmj3bqfhn2gm28js4fdgcl6.apps.googleusercontent.com</string>
+
+</resources>

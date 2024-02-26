@@ -1,0 +1,353 @@
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/main_bg"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/linear8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageview10"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/back" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textview7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="@string/profile"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/narrowline2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#212121"
+                android:orientation="horizontal" />
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/vscroll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/linear27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/linear40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp">
+
+                        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                            android:id="@+id/linear41"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:orientation="vertical">
+
+                            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                                android:id="@+id/linear43"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="vertical">
+
+                                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                                    android:id="@+id/linear3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="200dp"
+                                    android:layout_gravity="center_horizontal|bottom"
+                                    android:gravity="center_horizontal|bottom"
+                                    android:orientation="vertical">
+
+                                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                                        android:id="@+id/linear4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:orientation="horizontal">
+
+                                        <com.google.android.material.imageview.ShapeableImageView
+                                            android:id="@+id/profile"
+                                            android:layout_width="130dp"
+                                            android:layout_height="130dp"
+                                            android:layout_gravity="center_horizontal|center_vertical"
+                                            android:background="#101D24"
+                                            android:scaleType="centerCrop"
+                                            android:src="@drawable/profile_pic" />
+                                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                                    <com.google.android.material.imageview.ShapeableImageView
+                                        android:id="@+id/edit"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:background="#FF4433"
+                                        android:padding="10dp"
+                                        android:scaleType="fitCenter"
+                                        android:src="@drawable/account_edit"
+                                        android:translationX="60.0dp"
+                                        android:translationY="-50.0dp" />
+                                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                                    android:id="@+id/linear44"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:background="#F50057"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:orientation="horizontal"
+                                    android:padding="8dp">
+
+                                    <com.google.android.material.textview.MaterialTextView
+                                        android:id="@+id/textview32"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:text="@string/username"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="16sp" />
+                                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:id="@+id/textview33"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:text="@string/username"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="12sp" />
+                            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+                        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/linear36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                     >
+
+                        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                            android:id="@+id/linear_edit_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edittext1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:hint="@string/enter_your_name"
+                                android:imeOptions="actionNext"
+                                android:padding="8dp"
+                                android:singleLine="true"
+                                android:textColor="#FFFFFF"
+                                android:textColorHint="#CFD8DC"
+                                android:textSize="14sp"
+                                android:textStyle="italic" />
+
+                            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                                android:id="@+id/linear_editname"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="horizontal"
+                                android:translationY="5.0dp">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:id="@+id/button_save_name"
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginEnd="2dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="#00C853"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:padding="10dp"
+                                    android:text="@string/save"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="14sp" />
+                            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+                        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/narrowline"
+                        android:layout_width="350dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:background="#212121"
+                        android:orientation="horizontal" />
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/linear34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/imageview9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/settings_image" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/textview27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="@string/setting"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp" />
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/linear38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/imageview14"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/song_request" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/textview29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="@string/song_request"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp" />
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/linear30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/imageview5"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/invitefriends" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/textview26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="@string/invite_friend"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp" />
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/linear11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/imageview8"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/signout" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/textview10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/logout"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp" />
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>

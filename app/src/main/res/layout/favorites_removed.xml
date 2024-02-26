@@ -1,0 +1,40 @@
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	<com.google.android.material.circularreveal.CircularRevealLinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:layout_margin="8dp"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<com.google.android.material.textview.MaterialTextView
+			android:id="@+id/tin1"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="5dp"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:text="@string/song_removed_from_favorites"
+			android:textSize="14sp"
+			android:textColor="#263238" />
+		<com.google.android.material.circularreveal.CircularRevealLinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right|center_vertical"
+			android:orientation="horizontal">
+			<com.google.android.material.imageview.ShapeableImageView
+				android:id="@+id/img1"
+				android:focusable="false"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:src="@drawable/default_image"
+				android:scaleType="fitXY" />
+		</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+	</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>

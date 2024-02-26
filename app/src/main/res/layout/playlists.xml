@@ -1,0 +1,59 @@
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	<com.google.android.material.circularreveal.CircularRevealLinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal">
+		<com.google.android.material.imageview.ShapeableImageView
+			android:id="@+id/imageview1"
+			android:focusable="false"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:src="@drawable/playlist_songs"
+			android:scaleType="fitXY"
+			android:alpha="0.5" />
+		<com.google.android.material.textview.MaterialTextView
+			android:id="@+id/pName"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/textview"
+			android:textSize="14sp"
+			android:textColor="#000000"
+			android:layout_weight="1" />
+		<com.google.android.material.textview.MaterialTextView
+			android:id="@+id/textview1"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/_0"
+			android:textSize="14sp"
+			android:textColor="#000000"
+			android:alpha="0.5" />
+		<com.google.android.material.imageview.ShapeableImageView
+			android:id="@+id/imageview2"
+			android:focusable="false"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:src="@drawable/arrow"
+			android:scaleType="fitCenter"
+			android:alpha="0.5" />
+	</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+	<com.google.android.material.circularreveal.CircularRevealLinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:padding="8dp"
+		android:background="#F50057"
+		android:orientation="horizontal"
+		android:alpha="0.25" />
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>
